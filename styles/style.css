@@ -1,0 +1,84 @@
+/* Typography imported from Google Fonts */
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Source+Sans+Pro:200,400');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', serif;
+}
+
+p, a {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* Generic styles */
+html {
+  scroll-behavior: smooth;
+}
+
+.hero {
+  background: url('https://www.businessinsider.in/photo/73318126/How-to-calculate-house-rent-allowance-while-computing-income-tax.jpg?imgsize=313781') no-repeat center;
+  background-size: cover;
+  height: 500px;
+  position: relative;
+  padding: 4rem 2rem;
+  /* grid styles */
+  align-items: center;
+  max-width: 100%;
+  max-height: 200px;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -200%);
+  color: white;
+}
+
+main{
+	max-width: 100%;
+}
+
+.vinst {
+  max-width: 100%;
+  margin: auto;
+  font-size: 30px;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+}
+.container > div {
+  flex: 1; /*grow*/
+}
+
+.income{
+	max-width: 30%;
+	padding: 4rem 2rem;
+	text-align: center;
+}
+
+.calculator{
+	max-width: 40%;
+	padding: 4rem 2rem;
+	text-align: center;
+}
+
+.form{
+	display: flex;
+	flex-direction: column;
+}
+
+.form > input {}
+
+.outcome{
+	max-width: 30%;
+	padding: 4rem 2rem;
+	text-align: center;
+}
